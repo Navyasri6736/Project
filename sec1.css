@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url(img2.jpeg) no-repeat center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    margin-bottom: 6%;
+}
+
+.top-bar {
+    Display: flex;
+    color: white;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+
+.search {
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding: 0 10px;
+
+}
+
+.search:hover {
+    color: blue;
+}
+
+.contact-info {
+    padding-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info span:nth-child(1):hover {
+    color: blue;
+}
+
+.contact-info span:nth-child(2):hover {
+    color: blue;
+}
+
+.logos {
+    padding-right: 200px;
+    display: flex;
+    gap: 20px;
+}
+
+.logos span:nth-child(1):hover {
+    color: blue;
+}
+
+.logos span:nth-child(2):hover {
+    color: blue;
+}
+
+.logos span:nth-child(3):hover {
+    color: blue;
+}
+
+.logos span:nth-child(4):hover {
+    color: blue;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin-bottom: 10%;
+
+}
+
+.lo {
+    padding-left: 200px;
+}
+
+.lo :hover {
+    cursor: pointer;
+}
+
+.lists ul {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.home1 a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.home1 {
+    list-style-type: none;
+}
+
+.home2 ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    border-top: 4px solid orangered;
+    background-color: white;
+
+
+}
+
+.home2 a {
+    color: black;
+}
+
+.home1:hover .home2 ul {
+    display: block;
+
+}
+
+.home1 :hover {
+    color: orangered;
+
+}
+
+.home1 i:hover {
+    transform: rotate(180deg);
+}
+
+.home2 li:hover {
+    background-color: rgb(128, 210, 246);
+    color: white;
+
+}
+
+
+.tour a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.tour {
+    list-style-type: none;
+}
+
+.tour1 ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    border-top: 4px solid orangered;
+    background-color: white;
+
+
+}
+
+.tour1 a {
+    color: black;
+}
+
+.tour:hover .tour1 ul {
+    display: block;
+
+}
+
+.tour :hover {
+    color: orangered;
+
+}
+
+.tour i:hover {
+    transform: rotate(180deg);
+}
+
+.tour1 li:hover {
+    background-color: rgb(128, 210, 246);
+    color: white;
+
+}
+
+.pages1 a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+}
+
+.pages1 {
+    list-style-type: none;
+}
+
+.pages2 ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    border-top: 4px solid orangered;
+    background-color: white;
+
+
+}
+
+.pages2 a {
+    color: black;
+}
+
+.pages1:hover .pages2 ul {
+    display: block;
+
+}
+
+.pages1 :hover {
+    color: orangered;
+
+}
+
+.pages1 i:hover {
+    transform: rotate(180deg);
+}
+
+.pages2 li:hover {
+    background-color: rgb(128, 210, 246);
+    color: white;
+
+}
+
+
+
+.box button {
+    padding-right: 200px;
+    background-color: orangered;
+
+    right: 30%;
+    cursor: pointer;
+    color: white;
+    padding: 8px 20px;
+    margin-right: 200px;
+}
+
+.box button:hover {
+    background-color: skyblue;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.para {
+    padding-left: 200px;
+
+}
+
+.para2 {
+    color: orangered;
+    margin-bottom: 2%;
+}
+
+.para3 {
+    color: white;
+    font-size: 70px;
+    margin-bottom: 2%;
+    font-weight: 300px;
+}
+
+.para4 {
+    color: white;
+}
+
+.para4 i {
+    color: white;
+    margin-bottom: 2%;
+}
+
+.para1 {
+    color: white;
+    margin-bottom: 4%;
+
+}
+
+.para5 a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.para5 a:hover {
+    background-color: rgb(67, 176, 234);
+}
+
+.para6 a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67, 176, 234);
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.para6 a:hover {
+    background-color: rgb(43, 144, 232);
+}
+
+
+
+
+
+
+.my-form {
+    padding-right: 200px;
+}
+
+
+
+
+
+.my-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking {
+    background-color: rgb(52, 178, 220);
+    padding: 20px;
+    color: white;
+}
+
+.booking label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.booking input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    font-size: 14px;
+}
+
+.my-date {
+    width: 175px;
+}
+
+.my-date1 {
+    width: 175px;
+}
+
+.booking .btn {
+    background-color: orangered;
+    color: white;
+    border: none;
+    font-size: 14px;
+    width: 189px;
+    height: 35px;
+}
+
+.btn:hover {
+    background-color: rgb(81, 81, 185);
+}
+
+.words {
+    display: flex;
+    color: orangered;
+    justify-content: center;
+}
+
+.words1 b {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 1%;
+
+}
+
+.words2 {
+    color: rgb(52, 178, 220);
+    display: flex;
+    justify-content: center;
+}
+
+.words2 i {
+    color: rgb(52, 178, 220);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mygrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.fr {
+    border: 7px solid white;
+    background-color: rgb(45, 159, 212);
+    color: white;
+    max-width: 150px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    z-index: 4;
+}
+
+.fr a {
+    border: none;
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    padding: 5px 6px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.grid1 {
+    position: absolute;
+    bottom: -800px;
+    border: 7px solid white;
+    z-index: 2;
+}
+
+.grid2 {
+    position: absolute;
+    bottom: -800px;
+    left: 300px;
+    border: 7px solid white;
+    z-index: 3;
+}
+
+.grid3 {
+    position: absolute;
+    left: 250px;
+    border: 7px solid white;
+    z-index: 1;
+}
