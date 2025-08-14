@@ -6,7 +6,7 @@
 .main {
     width: 100%;
     height: 100vh;
-    background: url(img2.jpeg) no-repeat center;
+    background: url(images/pic1.jpg) no-repeat center;
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
@@ -391,55 +391,132 @@
 }
 
 
+.trip-images{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap:20px;
+    margin-bottom:4%;
+   
+}
+.se1{
+    background-color:white;
+    justify-content:center;
+    border:8px solid white;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align:center;
+   
+}
+
+.pic1{
+    filter:brightness(50%);
+    position:relative;
+    
+}
+.pic1 .star1 {
+    position:absolute;
+    top:5px;
+    right:5px;
+    color:black;
+    
+    
+   
+}
 
 
 
+.se2{
+    background-color:white;
+    justify-content:center;
+    border:8px solid white;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align:center;
+}
+
+.pic2{
+    filter:brightness(50%);
+    position:relative;
+}
+.pic2 .star2{
+    position:absolute;
+    top:5px;
+    right:5px;
+    color:black;
+}
+
+
+.se3{
+    background-color:white;
+    justify-content:center;
+    border:8px solid white;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align:center;
+}
+
+.pic3{
+    filter:brightness(50%);
+    position:relative;
+}
+.pic3 .star3{
+    position:absolute;
+    top:5px;
+    right:5px;
+    color:black;
+}
+
+
+.se4{
+    background-color:white;
+    justify-content:center;
+    border:8px solid white;
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align:center;
+}
+
+.pic4{
+    filter:brightness(50%);
+    position:relative;
+}
+.pic4 .star4{
+    position:absolute;
+    top:5px;
+    right:5px;
+    color:black;
+}
+h2:hover{
+    color:orangered;
+}
+p{
+    color:rgb(110, 110, 218);
+}
 
 
 
+.pa1{
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    margin-bottom:5%;
+
+}
+.pa1 a{
+    text-decoration:none;
+    background-color:orangered;
+    color:white;
+    padding:15px;
+
+}
+.pa1 a:hover{
+    background-color:rgb(52, 178, 220);
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section-3{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:7%;
+    
+}
 
 
 .mygrid {
@@ -455,11 +532,14 @@
     border: 7px solid white;
     background-color: rgb(45, 159, 212);
     color: white;
-    max-width: 150px;
-    height: 200px;
+    width: 180px;
+    height: 250px;
+    
     text-align: center;
+    align-content:center;
     position: relative;
     z-index: 4;
+    left:220px;
 }
 
 .fr a {
@@ -469,27 +549,252 @@
     text-decoration: none;
     padding: 5px 6px;
     display: inline-block;
-    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
 }
 
 .grid1 {
     position: absolute;
-    bottom: -800px;
+    bottom: -1320px;
+    left:200px;
     border: 7px solid white;
     z-index: 2;
 }
 
 .grid2 {
     position: absolute;
-    bottom: -800px;
-    left: 300px;
+    bottom: -1020px;
+    left: 400px;
     border: 7px solid white;
     z-index: 3;
 }
 
 .grid3 {
     position: absolute;
-    left: 250px;
+    left: 408px;
     border: 7px solid white;
     z-index: 1;
+    bottom:-1290px;
 }
+
+
+.content{
+    padding-right:200px;
+    
+    
+}
+.content1{
+    color:orangered;
+    font-size:13px;
+    margin-bottom:3%;
+    font-size:19px;
+}
+.content2{
+    font-size:50px;
+    margin-bottom:3%;
+}
+.content3 i{
+    color:rgb(12, 180, 231);
+    margin-bottom:3%;
+}
+.content3{
+    color:rgb(12, 180, 231);
+}
+.content4{
+    color:rgb(80, 76, 76);
+    font-size:15px;
+     margin-bottom:3%;
+}
+.content5{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:3%;
+   
+}
+.content6{
+    color:white;
+    background-color:orangered;
+    
+}
+.content7{
+    font-size:20px;
+}
+.content8{
+    font-size:15px;
+}
+
+.content9{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:3%;
+}
+.content10{
+    color:white;
+    background-color:orangered;
+    
+}
+.content11{
+    font-size:20px;
+}
+.content12{
+    font-size:15px;
+}
+
+.content13{
+    display:flex;
+    justify-content:space-between;
+    
+}
+.content14{
+    color:white;
+    background-color:orangered;
+    
+}
+.content15{
+    font-size:20px;
+}
+.content16{
+    font-size:15px;
+}
+
+.section-4{
+    display:flex;
+    justify-content:space-between;
+    padding-right:200px;
+    padding-left:200px;
+    margin-bottom:7%;
+}
+.sen1{
+    display:flex;
+    justify-content:center;
+    color:orangered;
+    margin-bottom:1%;
+    font-size:15px;
+}
+.sen2{
+    display:flex;
+    justify-content:center;
+    font-size:50px;
+    margin-bottom:1%;
+}
+.sen3{
+    display:flex;
+    justify-content:center;
+    color:rgb(84, 244, 249);
+    margin-bottom:3%;
+}
+.section-5{
+    margin-top:5%;
+  
+    background-color:rgb(253, 245, 245);
+    padding-left:200px;
+    padding-right:200px;
+
+}
+
+
+
+.photo1{
+    display:flex;
+    
+    justify-content:space-between;
+}
+.photo2{
+    position:relative;
+}
+.price{
+    background-color:rgb(240, 117, 72);
+    color:white;
+    padding:10px;
+    position:absolute;
+    top:6px;
+    left:0px;
+    
+}
+.info-bar{
+    background-color:rgb(61, 195, 244);
+    color:white;
+    display:inline-block;
+    padding:10px;
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    display:flex;
+    justify-content:space-around;
+    font-size:15px;
+    width:100%;
+
+}
+.context{
+    padding:30px;
+    display:inline-block;
+    background-color:white;
+    position:absolute;
+    top:0px;
+    height:430px;
+    width:200px;
+}
+.context1{
+    font-size:25px;
+    margin-bottom:10%;
+
+    
+}
+.reviews i{
+    font-size:13px;
+    color:gray;
+    margin-bottom:10%;
+    
+}
+.context2{
+    font-size:14px;
+    color:black;
+    
+    
+}
+.click-button{
+    margin-top:140px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.book{
+    text-decoration:none;
+    color:black;
+    
+    
+
+}
+.wishlist{
+    text-decoration:none;
+    color:black;
+    
+}
+
+.book i{
+    color:orangered;
+    
+}
+.wishlist i{
+    color:orangered;
+   
+}
+
+.book-hover :hover{
+    color:rgb(66, 214, 236);
+}
+.wishlist-hover :hover{
+    color:rgb(66, 214, 236);
+}
+
+
+
+
+
+
+
+
